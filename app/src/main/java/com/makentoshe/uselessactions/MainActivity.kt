@@ -34,12 +34,24 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main_next)
     }
 
+    /**
+     * Same as back button
+     */
     private fun onCancelButtonClicked(ignore: View) = onBackPressed()
 
+    /**
+     * Displays error message with text [message] on the red background.
+     */
     private fun showErrMessage(message: String) = showMessage(message, Color.RED)
 
+    /**
+     * Displays message with text [message] on the green background.
+     */
     private fun showOkMessage(message: String) = showMessage(message, Color.GREEN)
 
+    /**
+     * Displays message with text [message] on the background with the [color].
+     */
     private fun showMessage(message: String, color: Int) {
         //create toast
         val toast = Toast.makeText(this, message, Toast.LENGTH_LONG)
