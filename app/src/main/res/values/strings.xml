@@ -16,4 +16,5 @@
     <string name="phone_number">Phone number</string>
     <string name="cancel">Cancel</string>
     <string name="next">Next</string>
+    <string name="cool">Ok, all data is correct. Please, wait while we connecting to our servers...</string>
 </resources>
